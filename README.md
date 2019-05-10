@@ -2,7 +2,7 @@
 * Experimental presentation based user interface for PowerShell
 * WPF user interface
 * Pure C#. No XAML.
-* Minimalist. Currently only 200 lines long.
+* Minimalist. Currently only [200 lines long](https://github.com/dharmatech/PsReplWpf/blob/master/PsReplWpfTextBlock/MainWindow.cs).
 * I encourage folks to fork and experiment with new approaches. Sharing of your results is welcome!
 
 # Screenshots
