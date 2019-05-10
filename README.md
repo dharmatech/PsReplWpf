@@ -1,4 +1,3 @@
-# PsReplWpf
 
 * Experimental presentation based user interface for PowerShell
 * WPF user interface
