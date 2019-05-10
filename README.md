@@ -27,6 +27,10 @@ Services have a context menu with items for stopping, starting, and pausing:
 
 ![](https://i.imgur.com/4Yr6E9l.png)
 
+Let's to go a folder containing images and list the files there:
+
+![](https://i.imgur.com/l7KWzz2.png)
+
 # Status
 
 * This is currently a pure experimental proof-of-concept stage project.
