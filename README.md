@@ -27,6 +27,11 @@ Services have a context menu with items for stopping, starting, and pausing:
 
 ![](https://i.imgur.com/4Yr6E9l.png)
 
+# Status
+
+* This is currently a pure experimental proof-of-concept stage project.
+* The implementation is not PSHost based (and thus has many limitatons).
+
 # See Also
 
 * [Symbolics Lisp Machine Listener](https://youtu.be/o4-YnLpLgtk)
