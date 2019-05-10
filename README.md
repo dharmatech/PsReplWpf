@@ -11,3 +11,7 @@
 
 ![](https://i.imgur.com/gGrLvhL.png)
 
+* Get-Process - processes display as buttons
+    - Process context menu has a 'Stop Process' item
+
+![](https://i.imgur.com/Eed010C.png)
