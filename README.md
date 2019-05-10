@@ -1,6 +1,6 @@
 # PsReplWpf
 
-* Experiment in a presentation based user interface for PowerShell
+* Experimental presentation based user interface for PowerShell
 * WPF user interface
 * Pure C#. No XAML.
 * Minimalist. Currently only 200 lines long.
