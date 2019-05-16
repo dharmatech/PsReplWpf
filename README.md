@@ -11,7 +11,11 @@ Results of an `ls` are shown in a `DataGrid`. Actions are available via a contex
 
 ![](https://i.imgur.com/ddoUoet.gif)
 
-Similar for processes:
+Similar for services:
+
+![](https://i.imgur.com/n9qugOL.gif)
+
+And processes:
 
 ![](https://i.imgur.com/n9qugOL.gif)
 
