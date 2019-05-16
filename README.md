@@ -23,32 +23,13 @@ JSON retrieved via `Invoke-RestMethod` is displayed in a `TreeView` if `$output_
 
 ![](https://i.imgur.com/4slZGbg.gif)
 
-* Folders show up as buttons.
-    - Clicking the button changes the current directory to that directory in the shell.
-    - The context menu for a folder has an entry to open the folder in Explorer:
-
-![](https://i.imgur.com/gGrLvhL.png)
-
-* Get-Process - processes display as buttons
-    - Process context menu has a 'Stop Process' item
-
-![](https://i.imgur.com/Eed010C.png)
-
 You can of course always output to `Out-String` to display data in the traditional PowerShell format:
 
 ![](https://i.imgur.com/YL6g9X0.png)
 
-Services have a context menu with items for stopping, starting, and pausing:
-
-![](https://i.imgur.com/4Yr6E9l.png)
-
 Let's to go a folder containing images and list the files there:
 
 ![](https://i.imgur.com/l7KWzz2.png)
-
-A `PSCustomObject` representing JSON is displayed via a `TreeView`:
-
-![](https://i.imgur.com/kmV1rnq.png)
 
 # Status
 
