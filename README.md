@@ -21,7 +21,7 @@ And processes:
 
 JSON retrieved via `Invoke-RestMethod` is displayed in a `TreeView` if `$output_to_tree_view` is set to `$true`:
 
-![](https://i.imgur.com/uJAHBqO.gif)
+![](https://i.imgur.com/4slZGbg.gif)
 
 * Folders show up as buttons.
     - Clicking the button changes the current directory to that directory in the shell.
