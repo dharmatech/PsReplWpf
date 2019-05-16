@@ -30,6 +30,10 @@ Let's to go a folder containing images and list the files there:
 
 ![](https://i.imgur.com/l7KWzz2.png)
 
+Results of an `ls` are shown in a `DataGrid`. Actions are available via a context menu:
+
+![](https://i.imgur.com/ddoUoet.gif)
+
 A `PSCustomObject` representing JSON is displayed via a `TreeView`:
 
 ![](https://i.imgur.com/kmV1rnq.png)
