@@ -30,6 +30,10 @@ Let's to go a folder containing images and list the files there:
 
 ![](https://i.imgur.com/l7KWzz2.png)
 
+Here we use `Invoke-RestMethod` to get some JSON. The resulting object is displayed as text. We then set `$output_to_tree_view` to `$true`. We then retrieve the JSON again and this time it is displayed in a `TreeView`:
+
+![](https://i.imgur.com/rnqB8gj.gif)
+
 # Status
 
 * This is currently a pure experimental proof-of-concept stage project.
