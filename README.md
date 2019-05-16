@@ -11,6 +11,10 @@ Results of an `ls` are shown in a `DataGrid`. Actions are available via a contex
 
 ![](https://i.imgur.com/ddoUoet.gif)
 
+Similar for processes:
+
+![](https://i.imgur.com/n9qugOL.gif)
+
 JSON retrieved via `Invoke-RestMethod` is displayed in a `TreeView` if `$output_to_tree_view` is set to `$true`:
 
 ![](https://i.imgur.com/uJAHBqO.gif)
