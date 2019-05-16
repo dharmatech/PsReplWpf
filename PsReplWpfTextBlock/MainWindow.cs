@@ -1,5 +1,4 @@
 ﻿using System;
-using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -258,7 +257,14 @@ namespace PsReplWpfTextBlock
                 scroll_viewer.ScrollToBottom();
             }
 
+            text_block.ContextMenu = new ContextMenu().AddItems(
+                new MenuItem() { Header = "Clear" }.AddClick((s, e) =>
+                {
+                    text_block.Inlines.Clear();
 
+                    show_current_directory();
+                }));
+            
             show_current_directory();
             
             text_box.KeyDown += (sender, event_args) => 
@@ -517,7 +523,7 @@ namespace PsReplWpfTextBlock
                                 .AddColumns(
                                     make_data_grid_text_column("Status", 100),
                                     make_data_grid_text_column("ServiceName", 300),
-                                    make_data_grid_text_column("DisplayName", 600));
+                                    make_data_grid_text_column("DisplayName", 500));
 
                                 text_block.Inlines.Add(data_grid);
 
@@ -555,6 +561,9 @@ namespace PsReplWpfTextBlock
             dock_panel.AddChildren(scroll_viewer);
 
             Content = dock_panel;
+
+            Width = 800;
+            Height = 400;
 
             Title = "PowerShell";
         }
