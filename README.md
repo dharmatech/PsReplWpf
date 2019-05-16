@@ -7,6 +7,10 @@
 
 # Screenshots
 
+Results of an `ls` are shown in a `DataGrid`. Actions are available via a context menu:
+
+![](https://i.imgur.com/ddoUoet.gif)
+
 * Folders show up as buttons.
     - Clicking the button changes the current directory to that directory in the shell.
     - The context menu for a folder has an entry to open the folder in Explorer:
@@ -29,10 +33,6 @@ Services have a context menu with items for stopping, starting, and pausing:
 Let's to go a folder containing images and list the files there:
 
 ![](https://i.imgur.com/l7KWzz2.png)
-
-Results of an `ls` are shown in a `DataGrid`. Actions are available via a context menu:
-
-![](https://i.imgur.com/ddoUoet.gif)
 
 A `PSCustomObject` representing JSON is displayed via a `TreeView`:
 
