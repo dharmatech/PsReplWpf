@@ -34,9 +34,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Dharmatech.WpfExtensionMethods, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Dharmatech.WpfExtensionMethods.1.0.0.2\lib\net471\Dharmatech.WpfExtensionMethods.dll</HintPath>
+    <Reference Include="Dharmatech.WpfExtensionMethods, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dharmatech.WpfExtensionMethods.1.0.0.5\lib\net471\Dharmatech.WpfExtensionMethods.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
