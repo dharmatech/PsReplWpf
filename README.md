@@ -11,6 +11,10 @@ Results of an `ls` are shown in a `DataGrid`. Actions are available via a contex
 
 ![](https://i.imgur.com/ddoUoet.gif)
 
+JSON retrieved via `Invoke-RestMethod` is displayed in a `TreeView` if `$output_to_tree_view` is set to `$true`:
+
+![](https://i.imgur.com/uJAHBqO.gif)
+
 * Folders show up as buttons.
     - Clicking the button changes the current directory to that directory in the shell.
     - The context menu for a folder has an entry to open the folder in Explorer:
