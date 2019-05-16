@@ -2,7 +2,7 @@
 * Experimental presentation based user interface for PowerShell
 * WPF user interface
 * Pure C#. No XAML.
-* Minimalist. Currently only [200 lines long](https://github.com/dharmatech/PsReplWpf/blob/master/PsReplWpfTextBlock/MainWindow.cs).
+* Minimalist. Currently less than [600 lines long](https://github.com/dharmatech/PsReplWpf/blob/master/PsReplWpfTextBlock/MainWindow.cs).
 * I encourage folks to fork and experiment with new approaches. Sharing of your results is welcome!
 
 # Screenshots
@@ -40,3 +40,4 @@ Let's set `$output_thumbnails` to `$true`, go a folder containing images and lis
 
 * [Symbolics Lisp Machine Listener](https://youtu.be/o4-YnLpLgtk)
 * [Presentation Based User Interfaces](https://dspace.mit.edu/handle/1721.1/41161)
+* [Factor listener](https://youtu.be/f_0QlhYlS8g)
