@@ -27,9 +27,9 @@ You can of course always output to `Out-String` to display data in the tradition
 
 ![](https://i.imgur.com/YL6g9X0.png)
 
-Let's to go a folder containing images and list the files there:
+Let's set `$output_thumbnails` to `$true`, go a folder containing images and list the files there:
 
-![](https://i.imgur.com/l7KWzz2.png)
+![](https://i.imgur.com/YYLxPuW.png)
 
 # Status
 
